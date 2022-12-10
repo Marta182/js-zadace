@@ -7,5 +7,5 @@ function unisti(e) {
   
     document.getElementById(
       "ispis"
-    ).innerHTML = `Broj riječi u rečenici je: ${wordCount.length}`;
+    ).innerHTML = `Broj rečenica je: ${wordCount.length}`;
   }
