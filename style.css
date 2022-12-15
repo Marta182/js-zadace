@@ -1,0 +1,9 @@
+body {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  background-color: DarkCyan;
+  text-align: center;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
