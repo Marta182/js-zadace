@@ -8,6 +8,7 @@
 }
 
 fieldset {
+  display: flexbox;
   background-color: darkcyan;
   border-style: dashed;
   width: 50%;
@@ -27,24 +28,24 @@ fieldset {
 }
 
 @media screen and (min-width: 320px) {
-  .form {
+  fieldset {
     flex-basis: 80%;
   }
 }
 
 @media screen and (min-width: 480px) {
-  .form {
+  fieldset {
     flex-basis: 80%;
   }
 }
 @media screen and (min-width: 768px) {
-  .form {
+  fieldset {
     flex-basis: 80%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .form {
+  fieldset {
     flex-basis: 40%;
   }
 }
