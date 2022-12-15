@@ -1,5 +1,4 @@
 * {
-  display: flexbox;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,11 +7,12 @@
 }
 
 fieldset {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+  width: 50%;
   background-color: darkcyan;
   border-style: dashed;
-  width: 50%;
-  max-width: 800px;
-  min-width: 480px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -24,27 +24,4 @@ fieldset {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-}
-
-@media screen and (min-width: 320px) {
-  fieldset {
-    width: 30%;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  fieldset {
-    width: 30%;
-  }
-}
-@media screen and (min-width: 768px) {
-  fieldset {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  fieldset {
-    width: 100%;
-  }
 }
